@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 
 app.get('/',(req,res)=>{
-    res.send("Landing page - Grupo 1")
+    res.sendFile(path.join(__dirname, 'home.html'))
 })
 
 app.get('/integrantes',(req,res)=>{
