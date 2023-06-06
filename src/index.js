@@ -22,11 +22,13 @@ app.get('/integrantes',(req,res)=>{
         },
         {
             "nombre":"Erick",
-            "apellido":"Palomo"
+            "apellido":"Palomo",
+            "edad":22
         },
         {
             "nombre":"DIlan",
-            "apellido":"Flores"
+            "apellido":"Flores",
+            "edad":22
         },
         {
             "nombre":"Mateo",
